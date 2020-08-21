@@ -1,0 +1,31 @@
+{
+  "name": "ieshaan12.github.io",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000I\u0000e\u0000s\u0000h\u0000a\u0000a\u0000n\u0000 \u0000S\u0000a\u0000x\u0000e\u0000n\u0000a\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ieshaan12/ieshaan12.github.io.git"
+  },
+  "author": "Ieshaan Saxena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ieshaan12/ieshaan12.github.io/issues"
+  },
+  "homepage": "https://github.com/ieshaan12/ieshaan12.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
