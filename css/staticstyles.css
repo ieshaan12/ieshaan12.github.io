@@ -23,14 +23,15 @@ html *
 }
 
 .jumbotron {
-    padding: 70px 30px 70px 30px;
+    padding: 70px 30px 30px 30px;
     margin: 0px auto;
     background-color: #1B2954;
     color: floralwhite;
 }
 
-body {
-    background-color: #2671B9;
+.summary {
+    color: floralwhite;
+    font-size: large;
 }
 
 #HomePicture {
@@ -38,6 +39,7 @@ body {
     padding:1px;
     border:2px solid #021a40;
     background-color: #25274D;
+    border-radius: 7%;
 }
 
 .fa {
@@ -48,3 +50,85 @@ body {
     color: #9fedd7;
 }
 
+#education {
+    background-color: #2671B9;
+}
+
+#workEx {
+    background-color: #3b8beb;
+}
+
+.work-ex-img {
+    height: 150px;
+    border:2px solid #021a40;
+    border-radius: 7%;
+}
+
+#projects {
+    background-color: #77a6f7;
+}
+
+#navName {
+    font-family: 'Bangers', cursive;
+}
+
+.navbar-dark{
+    background-color: #512DA8;
+}
+
+.social-buttons [class*="fa fa-"] {
+    background-color: rgb(22, 148, 131);
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 1px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.popover-dismiss {
+    font-size: xx-large;
+    background-color:  #3b8beb;
+    color: #fff;
+}
+
+.popover-content {
+    background-color: #1B2954;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+.portfolio-box .portfolio-box-caption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(29, 10, 117, 0.9);
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+}
+
+.text-faded{
+    color:rgba(255,255,255,.7)
+}
+
+.project-category{
+    font-size:18px;
+    font-weight:600;
+    padding-top: 20%;
+}
+
+.project-name {
+    font-size:16px;
+    font-weight:600;
+}

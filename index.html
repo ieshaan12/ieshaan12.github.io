@@ -9,11 +9,15 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <!-- Color schemes can be found here : https://visme.co/blog/website-color-schemes/-->
         <style>
-        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
         </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+        </style>
+
         <link rel="stylesheet" href="css/staticstyles.css">
         <link rel="apple-touch-icon" sizes="57x57" href="./images/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="./images/apple-icon-60x60.png">
@@ -35,32 +39,71 @@
         <title>Ieshaan Saxena</title>
     </head>
 
-    <body>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+              <a class="navbar-brand js-scroll-trigger" id="navName" href="#page-top">IESHAAN SAXENA</a>
+              <button class="navbar-toggler navbar-toggler-right" type="button" 
+                      data-toggle="collapse" data-target="#navbarResponsive" 
+                      aria-controls="navbarResponsive" aria-expanded="false" 
+                      aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#workEx">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" target="_blank" href="./files/resume.pdf">Resume</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
 
         <header class="jumbotron">
             <div class="container-fluid">
+                <div class="row">
+                    <br>
+                </div>
                 <div class="row row-header">
                     <div class="col-12 col-sm-3 align-self-center">
                         <img id="HomePicture" src="./images/homepicture.jpg" alt="Ieshaan's Picture" title="Ieshaan" class="img-fluid">
                     </div>
                     <div class="col-12 col-sm-6">
                         <h1>Ieshaan Saxena</h1>
-                        <p>Add some flashy summary here</p>
+                        <div class="summary">
+                            Add some flash summary here
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="education">
+            <br>
+            <br>
             <br>
             <div class="row">
-                <div class="col-lg-8 mx-auto text-center mb-4"">
+                <div class="col-lg-8 mx-auto text-center mb-4">
                   <h2 class="section-heading text-white">Education</h2>
                   <hr class="light my-4">
                 </div>
-              </div>
+            </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4"">
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
                     <i class="fa fa-4x fa-id-card-o text-faded sr-icons"></i>
                     <h3 class="text-white">Degree</h3>
                     <p class="text-faded content-color">Bachelor of Engineering(Honors),
@@ -69,29 +112,157 @@
                         <br>
                         Graduating In July 2021
                     </p>
-                  </div>
-          
-                  <div class="col-lg-3 col-md-6 col-sm-6 text-center div-padding-fix mb-4"">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center div-padding-fix mb-4">
                     <i class="fa fa-4x fa-graduation-cap text-faded sr-icons"></i>
                     <h3 class="text-white">School</h3>
                     <p class="text-faded content-color">96.8% in CBSE(XII) ,<br> Delhi Public School, Navi Mumbai</p>
-                  </div>
-          
-                  <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4"">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
                     <i class="fa fa-4x fa-code text-faded sr-icons"></i>
                     <h3 class="text-white">Languages</h3>
                     <p class="text-faded content-color">Python, C/C++,<br> JavaScript, Java</p>
-                  </div>
-          
-                  <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4"">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
                     <i class="fa fa-4x fa-file-code-o text-faded sr-icons"></i>
                     <h3 class="text-white">Frameworks</h3>
                     <p class="text-faded content-color">React.js, Node.js, Django,<br> Tensorflow, Linux</p>
-                  </div>
+                </div>
             </div>
-            <div class="row row-content">
-                <div class="col-12">
-                    <p>Add content here</p>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="container-fluid" id="workEx">
+            <br>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-4">
+                  <h2 class="section-heading text-white">Work Experience</h2>
+                  <hr class="light my-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-4">
+                    <img class="work-ex-img" src="./images/pixxel_icon.jpg" alt="Pixxel" />
+                    <h3 class="text-white">
+                        <button class="btn popover-dismiss" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Pixxel" 
+                        data-content="<div>Working on the Onboard Computer, as part of the Command and Data Handling Team of the Satellite</div>" data-html="true">
+                            Pixxel
+                        </button>
+                    </h3>
+                    <p class="text-faded content-color">Flight Software Intern<br>August 2020 - Present</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 text-center div-padding-fix mb-4">
+                    <img class="work-ex-img" src="./images/ms_icon.png" alt="Microsoft" />
+                    <h3 class="text-white">
+                        <button class="btn popover-dismiss" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Kaizala Team" data-content="<div>
+                            <ull><li>Implemented the AtMentions for the Kaizala WebApp.</li><li>Fixed multiple customer issues and bugs to improve the performance of the WebApp and reduce the number of error sessions.</li></ul></div>" data-html="true">
+                            Microsoft IDC
+                        </button>
+                        
+                    </h3>
+                    <p class="text-faded content-color">Software Engineering Intern<br>May 2020 - July 2020</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-4">
+                    <img class="work-ex-img" src="./images/telegov_icon.PNG" alt="Telangana E-Governance" />
+                    <h3 class="text-white">
+                        <button class="btn popover-dismiss" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Telangana E-Governance" 
+                        data-content="<div>
+                            <ul>
+                                <li>Developed a Document Classification Model with an accuracy of 94%, with the goal to automate the classify various types of government issued documents.</li>
+                                <li>The model will be used by the MeeSeva centers by the Telangana E-Governance to ease the workload.</li>
+                                <li>A Django Interface was also developed for presenation purposes for this project.</li>
+                            </ul>
+                        </div>" 
+                        data-html="true">
+                            Telangana E-Governance
+                        </button>
+                    </h3>
+                    
+                    <p class="text-faded content-color">Software Intern<br>May 2019 - July 2019</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="container-fluid" id="projects">
+            <br>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                  <h2 class="section-heading text-white">Github Projects</h2>
+                  <hr class="light my-4">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">  <!-- p-0 makes the images go edge to edge (no padding) -->
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="https://github.com/ieshaan12/animalMediaBot" target="_blank">
+                        <!--  Same photo as the header, but resized.
+                            URL: https://upload.wikimedia.org/wikipedia/commons/f/f5/Free-ride.jpg
+                        -->
+                        <!-- Insert Image -->
+                        <img src="./images/reddit.png" width="100%" height="100%" alt="reddit">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Animal Media Bot
+                                </div>
+                                <div class="project-name">
+                                    Source code for Reddit's Animal Media Bot
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Second Link: source code for GUI II Project (Ski Maps) -->
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="https://github.com/ieshaan12/ieshaan12.github.io" target="_blank">
+                        <!--  Awesome photo of JT and random skiers from Google Photos
+                            (Personal photo taken March 15 2017 at Cannon Mt)
+                            Public URL: https://goo.gl/photos/RXYDMpAVjZmXL4MD6
+                        -->
+                        <!-- Insert Image -->
+                        <img src="./images/website.jpg"  width="100%" />
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                ieshaan12.github.io
+                                </div>
+                                <div class="project-name">
+                                Source Code for this Website
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Third Link: source code for GUI I last assignment (Scrabble) -->
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="https://github.com/ieshaan12/Document-Classifier" target="_blank">
+                        <!--  Thumbnail from Wikipedia
+                        URL: https://upload.wikimedia.org/wikipedia/commons/5/5d/Scrabble_game_in_progress.jpg
+                        -->
+                        <!-- Insert Image -->
+                        <img src="./images/documentClassification.jpg"  width="100%" />
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Document Classification Model
+                                </div>
+                                <div class="project-name">
+                                    Document Classification Model
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -101,18 +272,15 @@
                 <div class="row">
                     <div class="col-4 offset-1 col-sm-2">
                         <ul class="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="./aboutus.html">About</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="./contactus.html">Contact</a></li>
+                            <li>Add any useful link here</li>
                         </ul>
                     </div>
                     <div class="col-12 offset-sm-5 col-sm-4 align-self-center">
-                        <div class="text-center">
-                            <a class="btn btn-social-icon btn-github" href="http://www.github.com/ieshaan12" target="_blank"><i class="fa fa-github fa-lg"></i></a>
-                            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/ieshaan-saxena" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
-                            <a class="btn btn-social-icon" href="mailto:ieshaan1999@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-lg"></i></a>
-                            <!-- <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/ieshaan12" target="_blank"><i class="fa fa-instagram-o fa-lg"></i></a> -->
+                        <div class="social-buttons">
+                            <a class="btn" href="http://www.github.com/ieshaan12" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+                            <a class="btn" href="http://www.linkedin.com/in/ieshaan-saxena" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+                            <a class="btn" href="mailto:ieshaan1999@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-lg"></i></a>
+                            <a class="btn" role="button" href="tel:+919137018661"><i class="fa fa-phone fa-lg"></i></a>
                         </div>
                     </div>
                 </div>
@@ -124,11 +292,10 @@
             </div>
         </footer>
 
-
-
         <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="./js/scripts.js"></script>
     </body>
 </html>
